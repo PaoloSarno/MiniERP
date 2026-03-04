@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zJ6kSCsXVYU=",
+  "dgSpecHash": "2/nRTbGz0YY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP\\MiniERP.API.csproj",
+  "projectFilePath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP\\MiniERP.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p.sarno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
     "C:\\Users\\p.sarno\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"

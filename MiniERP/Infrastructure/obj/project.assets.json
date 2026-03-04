@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Infrastructure.csproj",
-      "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\MiniERP.Infrastructure.csproj",
+      "projectName": "MiniERP.Infrastructure",
+      "projectPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\MiniERP.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\p.sarno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

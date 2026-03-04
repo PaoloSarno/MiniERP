@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\p.sarno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

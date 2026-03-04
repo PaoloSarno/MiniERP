@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP\\MiniERP.API.csproj",
+      "projectUniqueName": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP\\MiniERP.API.csproj",
       "projectName": "MiniERP.API",
-      "projectPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP\\MiniERP.API.csproj",
+      "projectPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP\\MiniERP.API.csproj",
       "packagesPath": "C:\\Users\\p.sarno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP\\obj\\",
+      "outputPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
