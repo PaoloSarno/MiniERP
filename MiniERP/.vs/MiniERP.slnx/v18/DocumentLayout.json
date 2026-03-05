@@ -1,46 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\",
+  "WorkspaceRootPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{302BD183-F2D9-4B15-9A8A-82EE6337C4FB}|Application\\Application.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302BD183-F2D9-4B15-9A8A-82EE6337C4FB}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\events\\orderpaiddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\events\\orderpaiddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6443D8C2-B814-4487-8D05-F515E3EF3617}|Infrastructure\\Infrastructure.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6443D8C2-B814-4487-8D05-F515E3EF3617}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\policies\\ishipementpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\policies\\ishipementpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\policies\\ishipementpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\policies\\ishipementpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302BD183-F2D9-4B15-9A8A-82EE6337C4FB}|Application\\Application.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302BD183-F2D9-4B15-9A8A-82EE6337C4FB}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\events\\orderpaiddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\events\\orderpaiddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6443D8C2-B814-4487-8D05-F515E3EF3617}|Infrastructure\\Infrastructure.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6443D8C2-B814-4487-8D05-F515E3EF3617}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\events\\shippingrequesteddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\events\\shippingrequesteddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\events\\shippingrequesteddomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7669F856-946C-1C92-3995-D031FB9E4732}|MiniERP\\MiniERP.API.csproj|c:\\users\\p.sarno\\documents\\c#\\csharpgit\\minierp\\minierp\\minierp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7669F856-946C-1C92-3995-D031FB9E4732}|MiniERP\\MiniERP.API.csproj|solutionrelative:minierp\\minierp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,125 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IShipementPolicy.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Policies\\IShipementPolicy.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\Policies\\IShipementPolicy.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Policies\\IShipementPolicy.cs",
-              "RelativeToolTip": "MiniERP.Domain\\Policies\\IShipementPolicy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T13:06:57.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Money.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\ValueObjects\\Money.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\ValueObjects\\Money.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\ValueObjects\\Money.cs",
-              "RelativeToolTip": "MiniERP.Domain\\ValueObjects\\Money.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T10:06:09.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T09:19:28.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\Application\\Class1.cs",
-              "RelativeToolTip": "Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T09:12:42.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShippingRequestedDomainEvent.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
-              "RelativeToolTip": "MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T17:07:23.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderPaidDomainEvent.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
-              "RelativeToolTip": "MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T17:04:47.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "MiniERP.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAACQAAAAAMzMzM7MYwAMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T16:56:27.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Enums\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\Enums\\OrderStatus.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "MiniERP.Domain\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T16:51:24.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MiniERP.API",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP\\MiniERP.API.csproj",
-              "RelativeDocumentMoniker": "MiniERP\\MiniERP.API.csproj",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP\\MiniERP.API.csproj",
-              "RelativeToolTip": "MiniERP\\MiniERP.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-25T16:46:07.948Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -179,11 +54,102 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IShipementPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Policies\\IShipementPolicy.cs",
+              "RelativeDocumentMoniker": "MiniERP.Domain\\Policies\\IShipementPolicy.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Policies\\IShipementPolicy.cs",
+              "RelativeToolTip": "MiniERP.Domain\\Policies\\IShipementPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T13:06:57.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Money.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\ValueObjects\\Money.cs",
+              "RelativeDocumentMoniker": "MiniERP.Domain\\ValueObjects\\Money.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\ValueObjects\\Money.cs",
+              "RelativeToolTip": "MiniERP.Domain\\ValueObjects\\Money.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:06:09.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Infrastructure\\Class1.cs",
+              "RelativeToolTip": "Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:19:28.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\Application\\Class1.cs",
+              "RelativeToolTip": "Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:12:42.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShippingRequestedDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
+              "RelativeDocumentMoniker": "MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
+              "RelativeToolTip": "MiniERP.Domain\\Events\\ShippingRequestedDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:07:23.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderPaidDomainEvent.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
+              "RelativeDocumentMoniker": "MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
+              "RelativeToolTip": "MiniERP.Domain\\Events\\OrderPaidDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T17:04:47.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "MiniERP.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "MiniERP.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAD0AAAAgMzMzMzMkwDEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T16:56:27.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Entities\\OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "MiniERP.Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\C#\\cSharpGit\\MiniERP\\MiniERP.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Entities\\OrderItem.cs",
               "RelativeToolTip": "MiniERP.Domain\\Entities\\OrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

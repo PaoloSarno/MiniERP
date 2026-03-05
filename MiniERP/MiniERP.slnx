@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="Application/Application.csproj" Id="302bd183-f2d9-4b15-9a8a-82ee6337c4fb" />
-  <Project Path="Infrastructure/Infrastructure.csproj" Id="6443d8c2-b814-4487-8d05-f515e3ef3617" />
+  <Project Path="Application/MiniERP.Application.csproj" Id="302bd183-f2d9-4b15-9a8a-82ee6337c4fb" />
+  <Project Path="Infrastructure/MiniERP.Infrastructure.csproj" Id="6443d8c2-b814-4487-8d05-f515e3ef3617" />
   <Project Path="MiniERP.Domain/MiniERP.Domain.csproj" Id="81a77f1e-0fe0-4a5a-b3eb-987ff74bbf30" />
   <Project Path="MiniERP/MiniERP.API.csproj" />
 </Solution>
