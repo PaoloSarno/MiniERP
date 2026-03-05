@@ -1,5 +1,4 @@
-﻿    using System;
-namespace MiniERP.Domain.Entities
+﻿namespace MiniERP.Domain.Entities
 {  
     public class OrderItem
     {

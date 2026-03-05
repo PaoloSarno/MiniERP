@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\enums\\recoverystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\enums\\recoverystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\enums\\rolename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|solutionrelative:minierp.domain\\enums\\rolename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81A77F1E-0FE0-4A5A-B3EB-987FF74BBF30}|MiniERP.Domain\\MiniERP.Domain.csproj|c:\\users\\p.sarno\\documents\\minierp\\minierp\\minierp.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +59,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RecoveryState.cs",
-              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Enums\\RecoveryState.cs",
-              "RelativeDocumentMoniker": "MiniERP.Domain\\Enums\\RecoveryState.cs",
-              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Enums\\RecoveryState.cs",
-              "RelativeToolTip": "MiniERP.Domain\\Enums\\RecoveryState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "RoleName.cs",
+              "DocumentMoniker": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Enums\\RoleName.cs",
+              "RelativeDocumentMoniker": "MiniERP.Domain\\Enums\\RoleName.cs",
+              "ToolTip": "C:\\Users\\p.sarno\\Documents\\MiniERP\\MiniERP\\MiniERP.Domain\\Enums\\RoleName.cs",
+              "RelativeToolTip": "MiniERP.Domain\\Enums\\RoleName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T15:17:13.913Z",
+              "WhenOpened": "2026-03-05T15:17:46.835Z",
               "EditorCaption": ""
             },
             {
