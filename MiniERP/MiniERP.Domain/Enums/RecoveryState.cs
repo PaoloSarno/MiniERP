@@ -2,9 +2,9 @@
 {
     public enum RecoveryState
     { 
-        None = 0, 
-        InternalRecovery = 1, 
-        ExternalRecovery = 2, 
-        Recovered = 3 
+        None = 1, 
+        InternalRecovery = 2, 
+        ExternalRecovery = 3, 
+        Recovered = 4
     }
 }

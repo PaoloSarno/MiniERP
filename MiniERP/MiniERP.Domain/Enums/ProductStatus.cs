@@ -2,9 +2,9 @@
 {
     public enum ProductStatus
     { 
-        Active = 0, 
-        Inactive = 1, 
-        Discontinued = 2, 
-        Supplier = 3
+        Active = 1, 
+        Inactive = 2, 
+        Discontinued = 3, 
+        Supplier = 4
     }
 }

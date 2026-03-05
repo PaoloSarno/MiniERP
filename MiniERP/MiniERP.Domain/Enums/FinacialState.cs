@@ -2,8 +2,8 @@
 {
     public enum FinancialState 
     { 
-        PendingPayment = 0, 
-        Paid = 1, 
-        Refunded = 2 
+        PendingPayment = 1, 
+        Paid = 2, 
+        Refunded = 3
     }
 }

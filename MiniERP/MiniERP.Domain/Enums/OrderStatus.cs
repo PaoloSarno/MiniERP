@@ -2,8 +2,8 @@
 {
     public enum OrderStatus
     {
-        Draft = 0,
-        Confirmed = 1,
+        Draft = 1,
+        Confirmed = 2,
         Shipped = 3,
         Cancelled = 4
     }

@@ -2,8 +2,8 @@
 {
     public enum DisputeState 
     { 
-        None = 0, 
-        ChargebackPending = 1, 
+        None = 1, 
+        ChargebackPending = 2, 
         Lost = 3, 
         Won = 4
     }
