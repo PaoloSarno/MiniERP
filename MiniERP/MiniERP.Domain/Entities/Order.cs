@@ -1,123 +1,98 @@
-﻿using MiniERP.Domain.Enums;
+﻿using MiniERP.Domain.Entities;
+using MiniERP.Domain.Enums;
+using MiniERP.Domain.Exceptions;
 
 namespace MiniErp.Domain.Entities
 {
     public class Order
     {
-        public Guid Id { get; private set; }
-        public Guid CustomerId { get; private set; }
-        public DateTime CreatedAt { get; private set; }
+        // Identification
+        public Guid OrderId { get; private set; }
+        public Guid ClientId { get; private set; }
+
+        // Status
         public OrderStatus Status { get; private set; }
 
+        // Snapshot pricing totals
+        public decimal TotalExclVAT { get; private set; }
+        public decimal TotalInclVAT { get; private set; }
+
+        // Encapsulated list of OrderItems
         private readonly List<OrderItem> _items = new();
-        public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
+        public IReadOnlyCollection<OrderItem> Items => _items;
 
-        public decimal TotalExclVAT => _items.Sum(i => i.LineTotalExclVAT);
-        public decimal TotalInclVAT => _items.Sum(i => i.LineTotalInclVAT);
-
-        private bool _isPaid;
-
-        public Order(Guid customerId)
+        // Constructor
+        public Order(Guid clientId)
         {
-            Id = Guid.NewGuid();
-            CustomerId = customerId;
-            CreatedAt = DateTime.UtcNow;
+            OrderId = Guid.NewGuid();
+            ClientId = clientId;
             Status = OrderStatus.Draft;
         }
 
-        #region Business Methods
+        // Business methods
 
-        public void AddItem(Guid productId, int quantity, decimal unitPriceExclVAT, decimal vatRate, ProductStatus productStatus)
+        // Ajouter un produit à la commande
+        public void AddItem(Product product, int quantity)
         {
             if (Status != OrderStatus.Draft)
-                throw new InvalidOperationException("Cannot modify a non-draft order.");
+                throw new DomainException("Order is not editable");
 
             if (quantity <= 0)
-                throw new InvalidOperationException("Quantity must be greater than zero.");
+                throw new DomainException("Quantity must be positive");
 
-            if (productStatus != ProductStatus.Active)
-                throw new InvalidOperationException("Cannot add inactive product to order.");
+            // Fusion des lignes si même produit + même prix + même TVA
+            var existingItem = _items.FirstOrDefault(i =>
+                i.ProductId == product.ProductId &&
+                i.UnitPriceExclVAT == product.UnitPriceExclVAT &&
+                i.VATRate == product.VATRate);
 
-            var existingItem = _items.FirstOrDefault(i => i.ProductId == productId);
             if (existingItem != null)
             {
                 existingItem.IncreaseQuantity(quantity);
             }
             else
             {
-                _items.Add(new OrderItem(productId, quantity, unitPriceExclVAT, vatRate));
+                var item = new OrderItem(
+                    product.ProductId,
+                    quantity,
+                    product.UnitPriceExclVAT,
+                    product.VATRate
+                );
+                _items.Add(item);
             }
+
+            RecalculateTotals();
         }
 
+        // Supprimer un item
         public void RemoveItem(Guid productId)
         {
             if (Status != OrderStatus.Draft)
-                throw new InvalidOperationException("Cannot modify a non-draft order.");
+                throw new DomainException("Order is not editable");
 
             var item = _items.FirstOrDefault(i => i.ProductId == productId);
-            if (item == null)
-                throw new InvalidOperationException("Item not found in order.");
-
-            _items.Remove(item);
+            if (item != null)
+            {
+                _items.Remove(item);
+                RecalculateTotals();
+            }
         }
 
-        public void ConfirmOrder()
+        // Confirmer la commande
+        public void Confirm()
         {
-            if (Status != OrderStatus.Draft)
-                throw new InvalidOperationException("Order already confirmed or processed.");
-
             if (!_items.Any())
-                throw new InvalidOperationException("Order must have at least one item.");
+                throw new DomainException("Order must contain at least one item");
 
-            // Stock validation should happen in Application Layer before calling this
             Status = OrderStatus.Confirmed;
         }
 
-        public void MarkAsPaid()
+        // Calculer les totaux
+        private void RecalculateTotals()
         {
-            if (Status != OrderStatus.Confirmed)
-                throw new InvalidOperationException("Order must be confirmed before payment.");
-
-            if (_isPaid)
-                throw new InvalidOperationException("Order is already marked as paid.");
-
-            _isPaid = true;
-        }
-
-        public void ShipOrder()
-        {
-            if (!_isPaid)
-                throw new InvalidOperationException("Cannot ship unpaid order.");
-
-            if (Status != OrderStatus.Confirmed)
-                throw new InvalidOperationException("Only confirmed orders can be shipped.");
-
-            Status = OrderStatus.Shipped;
-        }
-
-        #endregion
-    }
-
-    public class OrderItem
-    {
-        public Guid ProductId { get; private set; }
-        public int Quantity { get; private set; }
-        public decimal UnitPriceExclVAT { get; private set; }
-        public decimal VATRate { get; private set; }
-        public decimal LineTotalExclVAT => Quantity * UnitPriceExclVAT;
-        public decimal LineTotalInclVAT => LineTotalExclVAT * (1 + VATRate / 100);
-
-        internal OrderItem(Guid productId, int quantity, decimal unitPriceExclVAT, decimal vatRate)
-        {
-            ProductId = productId;
-            Quantity = quantity;
-            UnitPriceExclVAT = unitPriceExclVAT;
-            VATRate = vatRate;
-        }
-
-        internal void IncreaseQuantity(int quantity)
-        {
-            Quantity += quantity;
+            TotalExclVAT = _items.Sum(i => i.LineTotalExclVAT);
+            TotalInclVAT = _items.Sum(i => i.LineTotalInclVAT);
         }
     }
+
 }

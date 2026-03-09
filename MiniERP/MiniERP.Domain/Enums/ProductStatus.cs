@@ -4,7 +4,5 @@
     { 
         Active = 1, 
         Inactive = 2, 
-        Discontinued = 3, 
-        Supplier = 4
     }
 }

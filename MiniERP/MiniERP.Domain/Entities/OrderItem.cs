@@ -1,24 +1,55 @@
-﻿namespace MiniERP.Domain.Entities
-{  
+﻿using MiniERP.Domain.Exceptions;
+
+namespace MiniERP.Domain.Entities
+{
     public class OrderItem
     {
-        public Guid ProductId { get; private set; }
-        public string ProductName { get; private set; }
-        public decimal UnitPriceExclVAT { get; private set; }
-        public decimal VATRate { get; private set; }
+        public Guid ProductId { get; }
+
         public int Quantity { get; private set; }
 
-        public OrderItem(Guid productId, string productName, decimal unitPriceExclVAT, decimal vatRate, int quantity)
+        public decimal UnitPriceExclVAT { get; }
+
+        public decimal VATRate { get; }
+
+        public decimal LineTotalExclVAT => UnitPriceExclVAT * Quantity;
+
+        public decimal LineTotalInclVAT => LineTotalExclVAT * (1 + VATRate);
+
+        internal OrderItem(
+            Guid productId,
+            int quantity,
+            decimal unitPriceExclVat,
+            decimal vatRate)
         {
+            if (quantity <= 0)
+                throw new DomainException("Quantity must be positive");
+
             ProductId = productId;
-            ProductName = productName;
-            UnitPriceExclVAT = unitPriceExclVAT;
-            VATRate = vatRate;
             Quantity = quantity;
+            UnitPriceExclVAT = unitPriceExclVat;
+            VATRate = vatRate;
         }
 
-        public decimal TotalExclVAT => UnitPriceExclVAT * Quantity;
-        public decimal TotalVAT => TotalExclVAT * VATRate;
-        public decimal TotalInclVAT => TotalExclVAT + TotalVAT;
+        // Méthode pour augmenter la quantité lors de la fusion de lignes
+        internal void IncreaseQuantity(int additionalQuantity)
+        {
+            if (additionalQuantity <= 0)
+                throw new DomainException("Additional quantity must be positive");
+
+            Quantity += additionalQuantity;
+        }
+
+        // Méthode pour réduire la quantité si nécessaire
+        internal void DecreaseQuantity(int removeQuantity)
+        {
+            if (removeQuantity <= 0)
+                throw new DomainException("Remove quantity must be positive");
+
+            if (removeQuantity > Quantity)
+                throw new DomainException("Cannot remove more than existing quantity");
+
+            Quantity -= removeQuantity;
+        }
     }
 }

@@ -2,7 +2,7 @@
 {
     public enum ClientType
     {
-        B2B = 1,
-        B2C = 2
+        Individual = 1,
+        Company = 2
     }
 }

@@ -4,6 +4,6 @@
     {
         Active = 1,
         Inactive = 2,
-        Prospective = 3
+        Suspended = 3
     }
 }
